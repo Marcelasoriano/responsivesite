@@ -1,15 +1,20 @@
 
+#gallery img {
+   scroll-snap-align: center;
+}
+
+@media only screen and (max-width:500px) {
+
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
-  .body { 
-    width: 767px;
+  .scroll_container { 
+    scroll-margin: 2em;
     ;
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
-  .body {
-    width: 767px;
-    height: 1534px;
+  .scroll_container {
+    scroll-margin: 2em;
   }
 }
