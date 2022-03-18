@@ -1,22 +1,15 @@
-div {
-  width: 100%;
-  height: 400px;
-  background-image: url('nintendo.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
 
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
   .body { 
-    width: 100%;
-    height: 100%;
+    width: 767px;
+    ;
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   .body {
-    width: 100%;
-    height: 100%;
+    width: 767px;
+    height: 1534px;
   }
 }
