@@ -1,17 +1,12 @@
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
-  .body {
-    width: 80%;
-    padding: 0;
-  }
-  .right {
-    width: 100%;
-  }
+  .body{
+    width: 150%;
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   .body {
-    width: 100%;
+    width: 5%;
   }
 }
